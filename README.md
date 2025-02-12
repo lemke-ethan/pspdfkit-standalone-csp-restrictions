@@ -1,2 +1,6 @@
 # pspdfkit-standalone-csp-restrictions
-a repo demonstrating the CSP restrictions of Nutrient's (PSPDFKit) standalone web SDK
+
+A repo demonstrating the CSP restrictions of Nutrient's (PSPDFKit) standalone web SDK.
+
+## PSPDFKit v2024.8.1 CSP Requirements
+
