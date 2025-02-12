@@ -12,7 +12,8 @@ export function PDFViewer() {
         pdfInstanceRef.current = await PSPDFKit.load({
           container: containerRef.current,
           document: "why-functional-programming.pdf",
-          baseUrl: `${window.location.protocol}//${window.location.host}/`, // Set your base URL
+          baseUrl: `${window.location.protocol}//${window.location.host}/`,
+          inlineWorkers: false,
         });
       }
     })();
